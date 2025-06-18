@@ -31,7 +31,7 @@ This project demonstrates how to build a real-time notification system using **L
 git clone https://github.com/your-username/laravel-realtime-notifications.git
 cd laravel-realtime-notifications
 
-### 2. Set Pusher credentials in .env
+### Set Pusher credentials in .env
 BROADCAST_DRIVER=pusher
 
 PUSHER_APP_ID=your_app_id
