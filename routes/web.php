@@ -25,3 +25,7 @@ Route::post('/send-message', function (Request $request) {
     event(new MessageSent($request->message));
     return response()->json(['status' => 'Message sent!']);
 });
+
+
+Route::get('', function (Request $request) {
+    return view('home');});
